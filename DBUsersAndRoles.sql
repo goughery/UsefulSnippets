@@ -7,3 +7,8 @@ SELECT DP1.name AS DatabaseRoleName,
    ON DRM.member_principal_id = DP2.principal_id  
 WHERE DP1.type = 'R'
 ORDER BY DP1.name;  
+
+
+-- Create login on master
+-- Create user on database
+-- Create role on database
