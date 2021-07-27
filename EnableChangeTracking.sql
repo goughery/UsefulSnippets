@@ -1,3 +1,10 @@
+--find which tables have change tracking
+--select b.name, a.* from sys.tables b
+--inner join sys.change_tracking_tables a
+--on a.object_id = b.object_id
+--order by b.name
+
+
 --Gets tables from sys.tables and iterates through, enabling change tracking
 
 -- ALTER TABLE dbo.dfnd_savecancel
